@@ -19,6 +19,9 @@ public class Metodos {
         
         System.out.println("A soma é: " + resultado);
         
+        System.out.println("O resultado do teste foi: " + (Operacoes.soma(5,(Operacoes.multiplicacao(Operacoes.subtracao(25, 5), Operacoes.divisao(25, 5))))));
+        
+        
     }
     
 }
